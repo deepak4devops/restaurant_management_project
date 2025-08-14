@@ -5,13 +5,13 @@
     </head>
     <body>
         <h1>Menu</h1>
-        <u1>
+        <ul>
             {% for item in menu_items %}
             <li>{{ item.name }} - ${{ item.price }}</li>
             {% empty %}
             <li>No menu items available</li>
             {% endfor %}
-        </u1>
+        </ul>
     </body>
 </html>
         
