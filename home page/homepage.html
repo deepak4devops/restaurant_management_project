@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Homepage</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #F9F9F9;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                }
+            
+            header {
+                background-color: #ff5733;
+                color: white;
+                padding: 20px;
+                font-size: 28px;
+                font-weight: bold;
+                } 
+
+            .logo {
+                display: block;
+                margin: 40px auto;
+                width: 220px;
+                height; auto;
+                }
+
+            .welcome-text {
+                font-size: 22px;
+                color: #333;
+                margin-top: 20px;
+                }
+
+            footer {
+                margin-top: 50px;
+                background: #222;
+                color: white;
+                padding: 15px;
+                }
+        
+        </style>
+    </head>
+    <body>
+        <header>
+            Welcome to Our Restaurant
+        </header>
+
+        <img src="{% static 'images/logo.png' %}" alt="Restaurant Logo" class="logo">
+
+        <p clss="welcome-text">Delicious food, served with love </p>
+
+        <footer>
+            2025 Our Restaurant. All rights reserved.
+        </footer>
+    </body>
+</html>
+            
